@@ -6,13 +6,14 @@ import Footer from './Footer';
 
 
 
+
 function App() {
   return (
     <div className="App">
-      <Footer/>
       <Title />
       <img src={logo} />
       <POPOSList/>
+      <Footer/>
     </div>
   );
 }
