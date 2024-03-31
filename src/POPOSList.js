@@ -12,13 +12,14 @@ import data from './sfpopos-data.json'
 //     )
 //   }
 function POPOSList() {
-  const spaces = data.map(( { title, address, images } ) => {
+  const spaces = data.map(( { title, address, images, hours} ) => {
     return (
       <POPOSSpace
         key={title} // the title can be a key
         name={title}
         address={address}
         image={images[0]}
+        hours={<div className="hours">{hours}</div>}
       />
     )
   })
