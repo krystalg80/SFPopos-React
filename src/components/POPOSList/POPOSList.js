@@ -1,6 +1,6 @@
 // src/POPOSList.js
 import React from "react"
-import POPOSSpace from './components/POPOSSpace';
+import POPOSSpace from '../components/POPOSSpace/POPOSSpace';
 import './POPOSList.css';
 import data from '../sfpopos-data.json'
 
