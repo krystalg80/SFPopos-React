@@ -4,9 +4,9 @@ import './index.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import About from './About';
-import POPOSList from './POPOSList';
-import POPOSDetails from './POPOSDetails';
+import About from './components/About/About';
+import POPOSList from './components/POPOSList/POPOSList';
+import POPOSDetails from './components/POPOSDetails/POPOSDetails';
 
 ReactDOM.render(
   <Router>

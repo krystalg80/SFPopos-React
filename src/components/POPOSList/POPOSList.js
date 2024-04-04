@@ -1,8 +1,9 @@
 // src/POPOSList.js
 import React from "react"
-import POPOSSpace from '../components/POPOSSpace/POPOSSpace';
+import POPOSSpace from "../POPOSSpace/POPOSSpace"; // Adjust the import path
+
 import './POPOSList.css';
-import data from '../sfpopos-data.json'
+import data from '../../sfpopos-data.json'
 
 // function POPOSList() {
 //     return (
@@ -15,6 +16,7 @@ function POPOSList() {
   const spaces = data.map(( { title, address, images, hours}, i) => {
     return (
       <POPOSSpace
+
         id={i}
         key={title} // the title can be a key
         name={title}
